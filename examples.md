@@ -22,6 +22,10 @@ If you don't have an AMI image ID, key pair, or security group, you can create t
 #### Create a key pair
 aws-cli ec2 create-key-pair --key-name my-key
 
+<img width="1423" height="133" alt="image" src="https://github.com/user-attachments/assets/dc1e973c-68e5-4508-9466-a8a2bf8ddfc4" />
+
+as you can see, the key was created and saved in the folder
+
 #### Create a security group
 aws-cli ec2 create-sg --description "My security group" --name my-sg --vpc-id vpc-xxxxxxx --cidr-ip 0.0.0.0/0
 
