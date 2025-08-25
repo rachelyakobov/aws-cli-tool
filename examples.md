@@ -22,10 +22,6 @@ If you don't have an AMI image ID, key pair, or security group, you can create t
 #### Create a key pair
 aws-cli ec2 create-key-pair --key-name my-key
 
-<img width="1423" height="133" alt="image" src="https://github.com/user-attachments/assets/dc1e973c-68e5-4508-9466-a8a2bf8ddfc4" />
-
-as you can see, the key was created and saved in the folder
-
 #### Create a security group
 aws-cli ec2 create-sg --description "My security group" --name my-sg --vpc-id vpc-xxxxxxx --cidr-ip 0.0.0.0/0
 
@@ -46,6 +42,9 @@ aws-cli ec2 Terminate --instance-id i-1234567890
 
 ### Help ec2
 python3 main_cli.py ec2 --help aws-cli ec2 --help
+
+<img width="828" height="467" alt="image" src="https://github.com/user-attachments/assets/5add7046-475f-41ec-9f47-4ce82c2e8e89" />
+
 
 python3 main_cli.py create-instance --help aws-cli ec2 create-instance --help
 
