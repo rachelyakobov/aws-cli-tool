@@ -9,6 +9,10 @@ python3 main_cli.py <resource> <action> [parameters]
 ### HELP
 python3 main_cli.py --help or aws-cli --help
 
+<img width="879" height="290" alt="image" src="https://github.com/user-attachments/assets/3e0c04e9-8fe7-44b7-85dc-04d0dd28a91b" />
+
+
+
 ### Create EC2 instance
 
 aws-cli ec2 create-instance --instance-type t3.micro --ami-image ami-xxxxxxx --instance-name my-instance --key-name my-key --security-group-id sg-xxxxxxx --subnet-id subnet-xxxxxxx
