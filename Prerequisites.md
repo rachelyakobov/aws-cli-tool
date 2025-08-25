@@ -33,9 +33,8 @@ aws configure
 ### Clone the repository and enter the project directory
 git clone https://github.com/rachelyakobov/AWS-CLI.git<repository-url>
 
-cd <repository-folder>
+cd aws-cli-tool
 
-cd cli-tool
 
 
 ### Install Python dependencies
@@ -67,9 +66,8 @@ aws configure
 ### Clone the repository and enter the project directory
 git clone https://github.com/rachelyakobov/AWS-CLI.git
 
-cd <repository-folder>
+cd aws-cli-tool
 
-cd cli-tool
 
 ### Install Python dependencies
 pip3 install -r requirements.txt
