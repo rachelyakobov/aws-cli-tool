@@ -31,7 +31,7 @@ aws --version
 aws configure
 
 ### Clone the repository and enter the project directory
-git clone https://github.com/rachelyakobov/AWS-CLI.git<repository-url>
+git clone https://github.com/rachelyakobov/aws-cli-tool.git
 
 cd aws-cli-tool
 
@@ -64,7 +64,7 @@ aws --version
 aws configure
 
 ### Clone the repository and enter the project directory
-git clone https://github.com/rachelyakobov/AWS-CLI.git
+git clone https://github.com/rachelyakobov/aws-cli-tool.git
 
 cd aws-cli-tool
 
