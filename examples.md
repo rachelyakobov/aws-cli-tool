@@ -43,9 +43,6 @@ aws-cli ec2 Terminate --instance-id i-1234567890
 ### Help ec2
 python3 main_cli.py ec2 --help aws-cli ec2 --help
 
-<img width="828" height="467" alt="image" src="https://github.com/user-attachments/assets/5add7046-475f-41ec-9f47-4ce82c2e8e89" />
-
-
 python3 main_cli.py create-instance --help aws-cli ec2 create-instance --help
 
 
