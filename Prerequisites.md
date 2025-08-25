@@ -89,7 +89,7 @@ vim config.py
 
 To simplify running the CLI tool, add an alias:
 
-echo 'aws-tool="python3 /path/to/your/project/main_cli.py"' >> ~/.bashrc
+echo 'alias aws-tool="python3 /path/to/your/project/main_cli.py"' >> ~/.bashrc
 
 source ~/.bashrc
 
