@@ -4,7 +4,7 @@ def create_s3(bucket_name, state='private'):
     import botocore.exceptions
     from config import AWS_REGION, CREATE_BY, USERNAME
 
-     if state == 'public':
+    if state == 'public':
         confirmation = input("You are about to create a **public** S3 bucket. Are you sure? (yes/no): ").strip().lower()
         if confirmation != 'yes':
             print("Bucket creation cancelled.")
